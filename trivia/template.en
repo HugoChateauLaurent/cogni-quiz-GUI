@@ -1,0 +1,45 @@
+#
+# $Id: questions.serv.en,v 1.2 2002/07/05 19:09:09 chat Exp $
+#
+# ------------------------------------------------------------------------------
+#
+#  Author:	Users from #quiz in DALNet
+#  Editor:	Serv
+#  Last edited: $Date: 2002/07/05 19:09:09 $
+#
+#  Comment:
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `Ž
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>

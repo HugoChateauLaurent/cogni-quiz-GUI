@@ -1,0 +1,146 @@
+#
+# $Id: questions.serv.en,v 1.2 2002/07/05 19:09:09 chat Exp $
+#
+# ------------------------------------------------------------------------------
+#
+#  Author:	Users from #quiz in DALNet
+#  Editor:	Serv
+#  Last edited: $Date: 2002/07/05 19:09:09 $
+#
+#  Comment:
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `Ž
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Question: Depuis la création de la Fresco, plusieurs projets ont d'envergure ont permis la création de nouvelles associations. Parmi les associations suivantes, laquelle n'est pas directement issue d'un projet de la Fresco ? \n A) Le CogLab \n B) Cognivence \n C) Cogni'Junior \n D) Cog'Innov
+Answer: B. L’association Cognivence a été créée en 1998.
+Regexp: (B|Cognivence)
+Score: 15
+
+Question: En 2014, combien de langues vivantes étaient recensées dans le monde ? \n A) Environ 800 \n B) Environ 2 500 \n C) Environ 7 000 \n D) Environ 12 000
+Answer: On estime entre 5 000 et 10 000 le nombre de langues vivantes dans le monde actuellement, en comptant ou non les variantes de dialecte. Pourtant 80% de la population parle moins d'uen centaine de langues parmi celles-ci.
+Regexp: (C|Environ 7 000|7000|7 000)
+Score: 10
+
+Question: La théorie de l'esprit a été développée suite à une étude sur la capacité d'attribuer des états mentaux à d'autres individus, les animaux étudiés étant : \n A) Des chimpanzés \n B) Des rats \n C) Des orques \n D) Des élephants
+Answer: A. La théorie de l'esprit permet d'attribuer des états mentaux (croyances, intentions...) à d’autres individus. Or d'après une étude de 2016 (Science), les bonobos, chimpanzés et orangs-outangs la possède également.
+Regexp: (A|Des chimpanzés)
+Score: 14
+
+Question: Quelle est la durée moyenne d'un potentiel d'action ? \n A) 0,000 003 ms \n B) 0,003 ms \n C) 0,3 ms \n D) 3 ms
+Answer: D. La vitesse d'un PA pourrait varier de 1 m/s à plus de 100 m/s, selon les espèces.
+Regexp: (D|3|3ms|3 ms)
+Score: 15
+
+Question: Quel est l'objectif d'un diagramme de Venn ? \n A) Visualiser dans le temps les différentes étapes d'un processus \n B) Montrer les relations logiques possibles d'une collection finie d'ensembles \n C) Modéliser les différentes causes d'un phénomène épistémique \n D) Explorer l'ensemble des possibilités d'un graph non orienté
+Answer: B. Crées vers 1880 par John Venn sont utilisés pour enseigner la théorie des ensembles élémentaires et illustrer des relations simples en probabilité, logique, statistiques, linguistique ouinformatique.
+Regexp: (b|diagramme de venn|venn)
+Score: 16
+
+Question: Que craint la théorie de la singularité technologique défendue notamment par John von Neumann ?  \n A) Que les IA deviennent plus intelligents et prennent le contrôle \n B) Que l'humain deviennent aussi "immortels" que les robots \n C) Qu'une fois conscients, les IA ne supportent pas le principe d'existence \n D) Qu'une IA ne puisse jamais simuler un humain
+Answer: A. Cette théorie a été exploitée sur le forum LessWrong dans l'expérience de pensée du Basilic de Roko qui traumatisa de nombreux internautes sur la potentielle venue d'une IA bienveillante et toute-puissante mais décidée à punir tout ceux n'ayant pas accélérer sa venue, et ainsi ne lui ayant pas permis de sauver autant d'humains qu'elle l'aurait souhaité.
+Regexp: (A)
+Score: 13
+
+Question: Quel mathématicien énonça les lois de négation de la disjonction et négation de la conjonction utilisées encore aujourd'hui en logique ? \n A) Bertrand Russell \n B) George Boole \n C) Augustus De Morgan \n D) Aristote
+Answer: C. Ces lois sont connues sous le nom de lois de De Morgan.
+Regexp: (C|De Morgan|Augustus de morgan)
+Score: 16
+
+Question: Dans quel cas s'illustre notamment l'effet Stroop ou effet Jaensch ? \n A) Avoir des difficultés à lire les noms de couleurs écrit avec une couleur différente de celle qu'ils représentent \n B) Ne pas pouvoir s'empêcher à une image lorsque nous souhaitons consciemment ne plus y penser \n C) Rester sur la 1ère impression que l'on a d'une personne malgré ses nouvelles paroles et actions \n D) S'auto-dévaluer en pensant que tout aurait pu être mieux fait et entraîner de nouvelles choses négatives
+Answer: A. Effet mis en évidence par John Ridley Stroop, son Ce protocole mesure l’interférence émanant de la dénomination de la couleur de l’encre de mots désignant eux-mêmes une autre couleur.
+Regexp: (A)
+Score: 8
+
+Question: Quel langage de balisage est conçu pour représenter les pages web ? \n A) C \n B) HTML \n C) Python \n D) Javascript
+Answer: L'HyperText Markup Language est née au début des années 1990.
+Regexp: (B|HTML)
+Score: 7
+
+Question: En 2018, une équipe d'éthologues a observé des transmissions culturelles à l'échelle planétaire par le biais du chant, et ce qu'ils ont appelé des révolutions culturelles. Quelle espèce animale ont-ils étudiée ? \n A) Les canaris \n B) Les baleines à bosse \n C) Les poulpes \n D) Les macaques
+Answer: B. Ces observations se sont faîtes lors de la transmission rapide de chants nuptiaux entre baleines de côtes très éloignées, comme manifestant une attirance pour la culture de leur congénères.
+Regexp: (B|baleines|baleines à bosses|les baleines à bosses)
+Score: 15
+
+Question: En 1956, quel est le sujet de l'article de George Miller resté célèbre intitulé "The Magical Number Seven, Plus or Minus Two" ? \n A) Les moteurs de l'action humaines \n B) Les disciplines reconnues en sciences cognitives \n C) Les cortex du cerveau humain \n D) L'empan mnésique
+Answer: D. L'empan mnésique correspond au nombre, en moyenne 7 plus ou moins 2, qu'un individu pourra retenir en mémoire immédiatement après les avoir perçus.
+Regexp: (D|l'empan mnésique|l'empan)
+Score: 12
+
+Question: A quoi correspond la "novlangue" parlée par la société fictive de George Orwell dans 1984 ? \n A) Une langue démocratique, dont le vocabulaire se met elle-même à jour suivant les évolutions culturelles et sociales de ses locuteurs \n B) Une langue inclusive, où aucune discrimination de genre, âge, orientation, origine etc ne transparaît \n C) Une langue exhaustive, qui promeut l'existence d'un mot pour chaque chose jusqu'à la plus petite nuance de sens \n D) Une langue nationaliste, excluant toute subjectivité et concept permettant de construire sa pensée
+Answer: D. Le roman de George Orwell est une dystopie  où la dictature en place contrôle la façon de pensée et l'obéissance de ses citoyens en partie par le déploiement de cette nouvelle langue unique et obligatoire.
+Regexp: (D|UNE LanGUE NATIONALISTE|NATIONALISTE)
+Score: 10
+
+Question: Le conditionnement opérant a été défini par le créateur de la boîte de... \n A) Bruner (Jerome) \n B) Milgram (Stanley) \n C) Skinner (Frederic) \n D) Thorndike (Edward)
+Answer: C. Skinner est anti-mentaliste. Pour lui, l’apprentissage d’un nouveau comportement est uniquement l'effet de renforcements exercés par des stimuli externes succédant aux réponses de l’organisme.
+Regexp: (C|Skinner|Skinner (Frederic)|boite de skinner|boîte de Skinner)
+Score: 17
+
+Question: Depuis des milliers d'année la bipédie a libéré les membres supérieurs humains et donc a permis l'utilisation d'outils. Le cerveau et plus particulièrement le cortex en ont été profondément modifiés. A quel maison se raccroche cette vision partagée par le psychologue Jérome Bruner ? \n A) Instrumentaliste \n B) Evolutionniste \n C) Empirique \n D) Béhavioriste
+Answer: B. Dérivée de l'anthropologie, cette discipline vise la définition et l'explication des lois régissant l'évolution de nos sociétés.
+Regexp: (B|Evolutionniste)
+Score: 13
+
+Question: Qu'étudie l'expérience datant de 1963, la plus connue du psychologue Stanley Milgram ? \n A) Le besoin de se référer aux normes \n B) L'effet biologique du mensonge \n C) L'attribution des intentions \n D) La soumission à l'autorité
+Answer: D. 
+Regexp: (D|La soumission à l'autorité)
+Score: 7
+
+Question: L'accident de Phineas GAGE au crâne transpercé par une barre de fer, et dont le comportement change brutalement montre : \n A) L'existence du cerveau attentionnel \n B) L'existence du cerveau reptilien \n C) L'existence du cerveau mémoriel \n D) L'existence du cerveau émotionnel
+Answer: D. Ne souffrant d'aucune paralysie, le comportement de Gage changea du tout au tout suite à cet incident : de sérieux, attentionné, sociable et fiable, il fut dès lors instable émotionnellement, asocial, agressif, capricieux et grossier.
+Regexp: (D|le cerveau émotionnel)
+Score: 18
+
+Question: Jouant un rôle prépondérant dans le comportement, quel structure s'apparente au "cerveau émotionnel" ? \n A) Cortex cérébral \n B) Le système limbique \n C) Système sympathique \n D) Cerveau reptilien
+Answer: B. Le système limbique contient entre autre structure l'hippocampe, l'amygdale, le fornix et l'hypothalamus.
+Regexp: (B|Le système limbique|système limbique|limbique)
+Score: 13
+
+Question: Chez quel animal a-t-on découvert en premier l'existence de neurones miroirs ? \n A) Le macaque \n B) La souris \n C) L'éléphant \n D) Le dauphin
+Answer: A. Chez les macaques observés, le neurone s’activait lorsque le singe saisissait un objet donné, ou que l’expérimentateur prenait lui-même cet objet.
+Regexp: (A|les macaques|macaques|le macaque)
+Score: 17
+
+Question: Quel recueil écrit en 1985 par le neurologue Olivier Sacks compile en fictions courtes les affections « les plus bizarres » qu'il ait rencontrées ? \n A) L'homme qui prenait sa femme pour un chapeau \n B) La grande dame, les mots et la chaleur  \n C) Les autres vivent en nous-mêmes \n D) Seul le résultat de nos sens
+Answer: A. Le titre provient du cas d'un homme qui savait reconnaître les objets composés de formes géométriques simples, tel un chapeau, mais pas les visages, dont le sien et celui de sa femme. 
+Regexp: (A)
+Score: 16
+
+Question: La grammaire de notre langue de prédilection peut notamment conditionner... \n A) Notre perception de notre genre \n B) Notre discrimination des couleurs \n C) Notre perception de la culpabilité des autres \n D) Notre représentation du temps
+Answer: Tout cela à la fois et plus encore. Pour les différentes sources et aller plus loin, voir l'article "La langue que l’on parle influe-t-elle sur notre manière de penser ?" de Science Etonnante
+Regexp: (A|B|C|D)
+Score: 100

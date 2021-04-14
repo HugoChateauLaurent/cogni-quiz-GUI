@@ -1,0 +1,88 @@
+ShowcaseScreen:
+    name: 'Question'
+
+    GridLayout:
+
+        cols: 1
+        spacing: '100dp'
+        size_hint_y: None
+        height: self.minimum_height
+
+        Button:
+            background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+            canvas.before:
+                Color:
+                    rgba: (.65,.3,.36,1)  # visual feedback of press
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [20,]
+            size_hint_y: None
+            height: '200dp'
+            text: 'Ceci est-ce \nune question ?'
+            halign: 'center'
+            font_size: 30
+
+        GridLayout:
+
+            cols: 2
+            spacing: '16dp'
+            size_hint_y: None
+            height: self.minimum_height
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.13,.21,.52,1) if self.state=='normal' else (.65,.3,.36,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [20,]
+                size_hint_y: None
+                height: '120dp'
+                text: 'A'
+                font_size: 30
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.13,.21,.52,1) if self.state=='normal' else (.65,.3,.36,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [20,]
+                size_hint_y: None
+                height: '120dp'
+                text: 'B'
+                font_size: 30
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.13,.21,.52,1) if self.state=='normal' else (.65,.3,.36,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [20,]
+                size_hint_y: None
+                height: '120dp'
+                text: 'C'
+                font_size: 30
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.13,.21,.52,1) if self.state=='normal' else (.65,.3,.36,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [20,]
+                size_hint_y: None
+                height: '120dp'
+                text: 'D'
+                font_size: 30
+

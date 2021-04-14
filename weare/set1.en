@@ -1,0 +1,150 @@
+#
+# $Id: questions.serv.en,v 1.2 2002/07/05 19:09:09 chat Exp $
+#
+# ------------------------------------------------------------------------------
+#
+#  Author:	Users from #quiz in DALNet
+#  Editor:	Serv
+#  Last edited: $Date: 2002/07/05 19:09:09 $
+#
+#  Comment:
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `Ž
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Question: A quelle année attribue-t-on généralement la naissance des sciences cognitives ? \n A)1956 \n B)1962 \n C)1968 \n D)1975
+Answer: 1956. En effet, cette année a lieu la première conférence consacrée à l'IA et ses applications à la psychologie de la cognition, à laquelle participent les A.Newell, J.McCarthy, C.Shannon, H.Simon, N.Chomsky, G.Miller, D.Hubel... L'année 1956 est aussi riche en publications fondamentales pour le domaine des sciences cognitives. 
+Regexp: (A|1956)
+Score: 18
+
+Question: Quelle discipline n'apparaît pas sur l'hexagone de Miller représentant les domaines principaux des sciences cognitives ? \n A) L'anthropologie \n B) Les neurosciences \n C) L'intelligence artificelle \n D) L'éthologie
+Answer: L'éthologie
+Regexp: (D|l'éthologie)
+Score: 9
+
+Question: Comment s'appelle l'étude de la connaissance, des sciences et de leurs méthodes ? \n A) L'épistémologie \n B) La métacognitique \n C) La logique \n D) La théorie de l'esprit
+Answer: L'épistémologie
+Regexp: (A|L'épistémologie)
+Score: 6
+
+Question: Comment s'appelle la capacité du cerveau à modifier durablement sa structure notamment en phase d'apprentissage ? (20 caractères)
+Answer: Plasticité cérébrale
+Regexp: (La|) Plasticité cérébrale
+Score: 6
+
+Question: Parmi ces émotions, lesquelles sont qualifiées de primaires ? \n A) Colère, Intérêt, tristesse \n B) Surprise, Intérêt, honte \n C) Surprise, joie, dégoût \n D) Tristesse, honte, dégoût
+Answer: C. Surprise, joie et dégoût, qui correspondent aux 6 émotions primaires communément admises avec la peur, la tristesse et la colère. 
+Regexp: (C|Surprise, joie, dégoût)
+Score: 4
+
+Question: L'aire de Broca correspond à la compréhension et la production du langage. Vrai ou Faux ?
+Answer: Faux. L'aire de Broca concerne uniquement la production du langage. La compréhension est traitée dans l'aire de Wernicke.
+Regexp: (F|Faux)
+Score: 13
+
+Question: Qu'est-ce que la Vallée de l'étrange ? \n A) Une région du Japon réputée pour ses laboratoires en IA \n B) Un algorithme de descente de gradient \n C) Une théorie en interaction humains-robots \n D) Un ensemble de méthodes de résolution logique paraissant fausses
+Answer: La vallée de l'étrange, ou vallée dérangeante, c'est la théorie selon laquelle plus un robot ressemble à un humain, plus ses imperfections nous paraissent monstrueuses.
+Regexp: (C|Une théorie en interaction humains-robots)
+Score: 11
+
+Question: Quel père de la psychologie s'intéressait particulièrement aux croyances, à la religion, au pragmatisme? \n A) Bertrand Russell \n B) William James \n C) Gottlob Frege \n D) Wilhelm Wundt
+Answer: William James
+Regexp: (B|William James)
+Score: 17
+
+Question: Quel langage de programmation est le plus ancien parmi ceux-ci ? \n A) Cobol \n B) HTML \n C) C \n D) FORTRAN
+Answer: Datant de 1954, le FORmula TRANslator est le plus vieux langage de programmation de haut niveau, utilisé principalement pour le calcul scientifique.
+Regexp: (D|FORTRAN)
+Score: 6
+
+Question: D'après Kant, qui est considéré comme le père de la logique pour son utilisation encore analysée et critiquée aujourd'hui ? \n A) Aristote \n B) Boole \n C) Frege \n D) Reisch
+Answer: Aristote, pour qui la logique ne sera pas une science mais une entité comprenant des règles visant un niveau d'abstraction, auquel tous ceux qui cherchent à atteindre la vérité devraient se référer.
+Regexp: (A|Aristote)
+Score: 15
+
+Question: Quel élément ne fait pas partie de l'anatomie d'un neurone ? \n A) Dendrite(s) \n B) Racine(s) \n C) Corps cellulair(e) \n D) Axone(s)
+Answer: Un neurone possède des dendrites, un corps cellulaire et un axone.
+Regexp: (B|Racine|racines)
+Score: 8
+
+Question: Quelle notion de Jérome Bruner désigne « l'ensemble des interactions d'assistance de l'adulte permettant à l'enfant d'apprendre à organiser ses conduites afin de pouvoir résoudre seul un problème qu'il ne savait pas résoudre au départ » ? \n A) Le soutien \n B) L'attention active \n C) L'étayage \n D) Le tutorat
+Answer: L'étayage vise à soutenir l'apprentissage de l'enfant, sans faire à sa place par l'attention portée à 6 fonctions cognitives définies par Bruner.
+Regexp: (C|L'étayage)
+Score: 14
+
+Question: Quel adjectif ne correspond pas à un lobe du cerveau humain ? \n A) Lobe occipital \n B) Lobe pariétal \n C) Lobe latéral \n D) Lobe temporal
+Answer: C, le lobe latéral n'existe pas, les lobes sur les côtés du cerveau sont les lobes temporaux, contenant notamment l'amygdale et l'hippocampe.
+Regexp: (c|lobe latéral|latéral)
+Score: 5
+
+Question: Qu'est-ce qu'un sophisme ? \n A) Une énonciation évidente et pléonasme \n B) Une résolution exhaustive en logique \n C) Un raisonnement faux malgré une apparence de vérité \n D) Un trouble du raisonnement cognitif
+Answer: C, dès la Grèce antique, des orateurs appelés Sophistes enseignaient l'éloquence et la persuasion, qu'elle recourt ou non à des argumentations fallacieuse. Leur rhétorique nourrit le développement de la logique, discipline cherchant le raisonnement vrai et juste.
+Regexp: (C|un raisonnement faux)
+Score: 13
+
+Question: A quoi correspond un logiciel capable de répondre à des questions, en effectuant un raisonnement à partir de faits et de règles connues ? \n A) Système multi-modale \n B) Système rationnel \n C) Système multi-agents \n D) Système expert
+Answer: D. Les systèles experts sont une des voie de l'intelligence artificielle, Dendral fut l'un des premiers conçu, il s'appliquait aux éléments chimiques.
+Regexp: (D|système expert|systèmes experts)
+Score: 17
+
+Question: A quoi sert in fine la science selon un ou une instrumentaliste ? \n A) Décrire le monde \n B) Prédire le monde \n C) Classifier le monde \n D) Représenter le monde
+Answer: Prédire le monde. Les modèles scientifiques établis représentent surtout des instruments permettant de devancer les phénomènes à venir.
+Regexp: (B|Prédire le monde)
+Score: 20
+
+Question: Quelle expression ne caractérise par une mémoire de notre cerveau ? \n A) A court terme \n B) Episodique  \n C) Procédurale \n D) Logique
+Answer: Logique. Les 3 autres mémoires correspondent chacune à des caractéristiques définies.
+Regexp: (D|Logique)
+Score: 8
+
+Question: Quel Américain pilier de la théorie de l'information a œuvré sur l'entropie et le fonctionnement des machines au XXème ? \n A) Alan Turing \n B) Claude Shannon \n C) Bertrand Russell \n D) Gottlob Frege
+Answer: B. Claude Shannon (1916-2001) était ingénieur en génie électrique et mathématicien.
+Regexp: (B|Claude Shannon|Shannon)
+Score: 19
+
+Question: Dans quel concept de Lev Vygotski doit être maintenu un individu pour maximiser son apprentissage ? \n A) La zone proximale de développement \n B) L'état d'activité cérébrale optimale \n C) L'attention active \n D) Le niveau de progression constant
+Answer: A. La ZPD ou Zone de proche développement ou zone de développement prochain est née de son travail sur le développement de l'enfant.
+Regexp: (A|Zone proximale de développement)
+Score: 16
+
+Question: Qu'est-ce que le modus ponens ? \n A) Une figure du raisonnement logique \n B) Une aire corticale dédiée à la mémoire \n C) Un langage faux et sans signification \n D) Un trouble de la parole
+Answer: A. Figure fondamentale en logique, le modus ponens pose une implication (« si A alors B ») couplé à son antécédent (« or A ») pour en déduire le conséquent (« donc B »).
+Regexp: (A|Une figure du raisonnement logique)
+Score: 13
+
+
+
+

@@ -1,0 +1,146 @@
+#
+# $Id: questions.serv.en,v 1.2 2002/07/05 19:09:09 chat Exp $
+#
+# ------------------------------------------------------------------------------
+#
+#  Author:	Users from #quiz in DALNet
+#  Editor:	Serv
+#  Last edited: $Date: 2002/07/05 19:09:09 $
+#
+#  Comment:
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `Ž
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Question: Quel animal automate présenté en 1739 célèbre pour le naturel, la complexité et la diversité de ses mouvements, ainsi que la simulation de la digestion et défécation, représente l'élan de rationalisme scientifique des Lumières ? \n A) Le poisson de Vaucanson \n B) Le vers de Vaucanson \n C) Le lapin de Vaucanson \n D) Le canard de Vaucanson
+Answer: D. Suivant la théorie de l'animal-machine de Descartes, le projet vaucansonien est de construire des machines imitant le monde vivant et ainsi de comprendre les fonctionnements de ce dernier.
+Regexp: (D|Le canard de Vaucanson|le canard|canard)
+Score: 20
+
+Question: L'inférence de l'état mental d'un être possédant une croyance erronée et non conforme à la réalité relève du/de la... \n A) Béhaviorisme \n B) Théorie de l'esprit \n C) Existentialisme \n D) Théorie de l'information
+Answer: B. La théorie de l'esprit est née de Premack et Woodruff en 1978.
+Regexp: (B|théorie de l'esprit)
+Score: 13
+
+Question: Quel jeu défini en 1982, comporte 3 tiges plantées dans une base, avec au départ, sur la première tige N disques superposés et de plus en plus étroits, avec pour but du jeu est de transférer les N disques sur la troisième tige en conservant la configuration initiale, et est utilisé pour enseigner l'algorithmique ? \n A) Jeu du baguenaudier \n B) Panex \n C) La Tour de Hanoi  \n D) La pyramide de Ponzi
+Answer: La tour de Hanoi est créée par le mathématicien français Édouard Lucas.
+Regexp: (C|tour de Hanoi|la tour de hanoi)
+Score: 10
+
+Question: À quelle personne doit-on la découverte du conditionnement classique ? \n A) Edward Lee Thorndike \n B) Burrhus Frederic Skinner \n C) John Broadus Watson \n D) Ivan Petrovitch Pavlov
+Answer: D, aussi appelé conditionnement Pavlovien, provient du béhaviorisme et apparaît en 1903.
+Regexp: (D|Ivan Petrovitch Pavlov)
+Score: 4
+
+Question: Entre controverses et imperfections, quel objectif poursuivent notamment les 3 lois de l'écrivain de fiction Isaac Asimov ? ? \n A) Maintenir le secret et la confidentilaité de la conception des IA \n B) Garantir obéissance des robots et protection des humain \n C) Eviter l'eugénisme et le transhumanisme \n D) Définir les différences entre robots et humains malgré l'IA
+Answer: B. Ces lois sont notamment énoncées et mises en application dans sa saga Cycle de Fondation, elles sont toujours d'actualité, tantôt suivies, tantôt parodiées ou enfreintes. Anecdote : assistant à la projection de 2001, l'Odyssée de l'espace, il aurait quitté avec bruit la salle lorsque l'ordinateur HAL 9000 viole la 1ère loi en s'attaquant à des humains. 
+Regexp: (B)
+Score: 15
+
+Question: Que cherche à illustrer la chambre chinoise du philosophe américain Joseph Searle en 1932, où un individu sans aucune connaissance du chinois est enfermé dans une chambre, avec entre autre à disposition, un catalogue de règles permettant de répondre à des phrases en chinois ? \n A) Que les formes visuelles sont toujours interprêtées \n B) Qu'une IA ne sera jamais une intelligence humaine \n C) Que le langage s'apprend dans par la communication orale \n D) Que toute langue nécessite l'apprentissage de règles linguistiques
+Answer: B. Il cherche à montrer qu'une IA ne pourra être qu'incomplète, ne pouvant jamais comprendre le langage, simuler réellement et encore moins s'apparenter à une conscience, à contrario d'un individu qui emploirait les règles de grammaire à dessein. 
+Regexp: (B)
+Score: 16
+
+Question: La théorie de l'esprit et ses problématiques ont été introduites par... \n A) 2 philosophes \n B) 2 sociololgues \n C) 2 éthologues \n D) 2 psychologues 
+Answer: C, Premack et Woodruff, étudiaient la "théorie" de l'esprit, c'est-à-dire l'aptitude cognitive permettant à un individu d’attribuer des états mentaux inobservables à soi-même ou à d'autres.
+Regexp: (C)
+Score: 10
+
+Question: En 1994, quel scientifique réhabilite le rôle des émotions dans la cognition dans un ouvrage intitulé "L'erreur de Descartes" ? \n A) Joseph LeDoux \n B) Nico Henri Frijda \n C) Antonio Damasio \n D) Earl W. Sutherland
+Answer: C. Son ouvrage remet en question la séparation dualiste de l'esprit et du corps, de la rationalité et l'émotion proposée par Descartes. 
+Regexp: (C|Antonio Damasio)
+Score: 17
+
+Question: Quelle est l'amplitude d'un potentiel d'action ? \n A) -180 à 0 mV \n B)  +80 à -50 mV \n C) -70 à +30 mV \n D) 0 à +150 mV
+Answer: C. Le PA, ou influx nerveux, se déplace le long de l'axone une fois le seuil d'excitabilité atteint. (Certaines sources indiquent -70 à +40mV)
+Regexp: (C|-70 à +30 mV)
+Score: 19
+
+Question: A quel américain doit-on le courant du béhaviorisme en souhaitant faire de la psychologie une science objective ? \n A) Noam Chomsky \n B) Jérome Bruner \n C) Wilhelm Wundt \n D) John Broadus Watson 
+Answer: D. Watson, psychologue américain, souhaite étudier le comportement humain sans aborder l'introspection et en privilégiant l'étude des phénomènes d'apprentissage.
+Regexp: (D|John Broadus Watson|Watson)
+Score: 13
+
+Question: Quels neurones s'activent lorsque nous imaginons une action connue ou observons quelqu'un effectuer celle-ci ? \n A) Neurones miroirs \n B) Neurones moteurs \n C) Neurones reflets \n D) Neurones bipolaires
+Answer: A. Les neurones miroirs sont très actifs dans les processus d'apprentissage, d'empathie et de survie. Ils pourraient être la raison du phénomène de baillement en chaîne.
+Regexp: (A|les neurones miroirs|neurones miroirs)
+Score: 5
+
+Question: En 2018, trois pionniers du Deep Learning ont été récompensés d'un prix Turing. Parmi les propositions suivantes, qui n'a pas reçu le prix ? \n A) Andrew Ng \n B) Geoffrey Hinton \n C) Yann LeCun \n D) Yoshua Bengio
+Answer: A. Le Turing Award 2018 fût attribué au français Yann LeCun, à l'américain Geoffrey Hinton et au canadien Yoshua Bengio.
+Regexp: (A|Andrew Ng)
+Score: 20
+
+Question: Quelle zone du cerveau fut identifiée par l'autopsie d'un individu ne prononçant qu'une syllabe ? \n A) L'aire de Wernicke \n B) Le territoire de Geschwind \n C) La scissure de Sylvius \n D)L'aire de Broca
+Answer: D. L'aire de Broca est découvert par le médecin français Paul Broca en 1961, lorsqu'il publie les résultats de l'autopsie du cerveau de M. Leborgne, aphasique surnommé « Tan Tan » pour l'unique syllabe qu'il parvenait à prononcer.
+Regexp: (D|L'aire de Broca)
+Score: 13
+
+Question: Quel équilibre ionique est au coeur des échanges transmembranaires d'une fibre nerveuse lors des passages de potentiels d'action ? \n A) Cl-/H+ \n B) Na+/K+ \n C) H+/K+ \n D) Cl-/Na+
+Answer: B. Les pompes sodium-potassium permettent l'échange les ions sodium (Na+) du milieu intracellulaire avec les ions potassium (K+) du milieu extracellulaire.
+Regexp: (B|Na+/K+)
+Score: 12
+
+Question: Qu'est-ce qu'une boîte à moustaches ?  \n A) Une représentation graphique de données statistiques \n B) Une experience utilisant des rats en espace clôt \n C) Un surnom de l'expérience de schrodinger \n D) Un système de détection olfactive à l'aveugle en recherche
+Answer: A. Aussi appelées diagramme en boîte ou Box plot, elles illustrent rapidement et visuellement la répartition d'une série de données statistiques quantitatives.
+Regexp: (A|Une représentation graphique de données statistiques)
+Score: 5
+
+Question: Que démontre l'expérience des rats plongeurs ? \n A) L'existence de représentation spatiale mentale \n B) Le processus de reproduction des rôles sociaux \n C) L'existence des neurones miroirs \n D) Le contrôle inhibiteur du système limbique
+Answer: B. Une fois que certains rats ont commencé à accepter de plonger pour ramener une friandise, des rats dominants en profiteront sans avoir à plonger, simplement en récupérant le butin des rats plongeurs. Mais si ces derniers sont retirés de la box de test, des rats jusqu'alors dominants deviendront les rats plongeurs d'autres rats etc.
+Regexp: (B|Le processus de reproduction des rôles sociaux)
+Score: 13
+
+Question: Quel robot autonome et programmable de 58cm de haut, blanc avec touches de bleus, développé en 2005 par une start-up française à Paris, est encore aujourd'hui utilisé à des fins de recherche et d'éducation dans des dizaines de pays ? \n A) LUC \n B) MAGGY \n C) NAO \n D) YMIR
+Answer: C. NAO est notamment présent dans les établissements scolaires, auprès d'enfants en situation de handicap et à la RoboCup.
+Regexp: (C|NAO)
+Score: 15
+
+Question: Quelle expression ne caractérise par une mémoire de notre cerveau ? \n A) Symbolique \n B) A long terme \n C) Sémantique \n D) De travail
+Answer: A. La mémoire de travail est la moins utilisée durant ce quiz.
+Regexp: (A|Symbolique)
+Score: 7
+
+Question: Qui est considéré comme le père de la linguistique ? \n A) André Martinet \n B) Noam Chomsky \n C) Roderick Chisholm \n D) Ferdinand de Saussure
+Answer: D. Ferdinand de Saussure a peu publié de son vivant mais son travail est cité en nombre et exploité dans différentes disciplines encore aujourd'hui. 
+Regexp: (D|Ferdinand de Saussure)
+Score: 15
+
+Question: Lequel n'est pas un biais cognitif ? \n A) Pygmalion \n B) Google \n C) Fisher \n D) Cheerleader
+Answer: C. Et il en existe beaucoup d'autres.
+Regexp: (C|Fisher)
+Score: 20
